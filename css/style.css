@@ -1,4 +1,9 @@
-. {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -55,3 +60,54 @@ header {
     display: block;
 
 }
+
+/*** Hidden Item ***/
+.search-form {
+    display: none;
+}
+
+.home-container {
+    background: #f5a05c url(../images/BGShape.png) no-repeat;
+    background-position: right center;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-left h1 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #021718;
+}
+
+.home-left p {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #021718;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #FFFFFA;
+    background: #01847F;
+    border-radius: 8px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.home-right {}
