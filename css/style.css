@@ -137,3 +137,16 @@ header {
 .darlene img:hover {
     transform: rotate(-6deg);
 }
+
+.social-icon {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon a img {
+    margin-right: 35px;
+}
+
+.social-icon a:last-child img {
+    margin: 0;
+}
