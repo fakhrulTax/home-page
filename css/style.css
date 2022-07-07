@@ -111,3 +111,29 @@ header {
 }
 
 .home-right {}
+
+
+.darlene {
+    position: relative;
+}
+
+.darlene img {
+    position: relative;
+    z-index: 2;
+}
+
+.darlene::before {
+    position: absolute;
+    content: '';
+    left: 48px;
+    top: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: #44A1A0;
+    z-index: 1;
+    transform: rotate(-6deg);
+}
+
+.darlene img:hover {
+    transform: rotate(-6deg);
+}
